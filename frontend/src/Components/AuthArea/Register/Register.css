@@ -1,0 +1,24 @@
+.Register {
+    width: 100%;
+    margin-top: 5%;
+    
+}
+.Register .TextField {
+    margin: 0.7rem;
+    opacity: 1;
+}
+
+.Register form {
+    margin: 0.7rem;
+    color: #e3fc00;
+
+}
+
+.Register input {
+    color: #7CFC00;
+    background-color: transparent;
+}
+
+.Register .TextField p{
+    color: red
+}

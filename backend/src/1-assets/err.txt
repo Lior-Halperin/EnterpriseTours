@@ -1,0 +1,12 @@
+Time: 01/01/2023, 14:18:10, Method: GET, Route: /api/vacations/,
+        err status: 500, err message: Unknown Error, ip:::1
+
+Time: 01/01/2023, 14:18:10, Method: GET, Route: /api/vacations/,
+        err status: 500, err message: Unknown Error, ip:::1
+
+Time: 01/01/2023, 14:18:10, Method: GET, Route: /api/vacations/,
+        err status: 500, err message: Unknown Error, ip:::1
+
+Time: 01/01/2023, 14:18:10, Method: GET, Route: /api/vacations/,
+        err status: 500, err message: Unknown Error, ip:::1
+

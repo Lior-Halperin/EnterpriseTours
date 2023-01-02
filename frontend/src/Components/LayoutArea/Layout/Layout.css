@@ -1,0 +1,30 @@
+
+.Layout {
+	height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.Layout > header{
+    grid-column: span 2;
+
+}
+
+.Layout > main  {
+
+    grid-column: span 2;
+
+} 
+
+.Layout > main > *,.Layout > footer > * {
+    border: solid 1px black;
+}
+
+.Layout > footer  {
+    position: relative;
+    grid-column: span 2;
+    grid-template-columns: 30% 70% ;
+        
+}
+
+

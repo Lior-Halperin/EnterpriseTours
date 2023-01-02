@@ -1,0 +1,7 @@
+.followersReport {
+	height: 100%;
+}
+
+.followersReport canvas {
+	max-height: 50%;
+}

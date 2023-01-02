@@ -1,0 +1,93 @@
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    padding:10px;
+}
+
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 #7CFC00;
+    
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+
+}
+
+.flip-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flip-card-front>h2 {
+    background-color: aliceblue;
+
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: black;
+    color: GhostWhite;
+    transform: rotateY(180deg);
+}
+
+.flip-card-back>img {
+    width: 100%;
+    height: 40%;
+}
+
+.meinDetails{
+  width: 100%;  
+    height: 47%;
+    padding: 1px;
+    box-sizing: border-box;
+}
+.meinDetails>*{    
+font-size: 1rem;
+line-height: 80%;
+box-sizing: border-box;
+
+}
+
+.buttonPanel > button{
+    background-color: transparent;
+    border: none;
+}
+.buttonPanel{
+border-top:1px solid GhostWhite;
+}
+
+
+.meinDetails >h1{
+    color: #7CFC00;
+}
+

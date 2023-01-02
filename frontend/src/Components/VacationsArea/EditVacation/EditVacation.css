@@ -1,0 +1,55 @@
+.EditVacation {
+    /* display: flex; */
+    width: 100%;
+    /* word-wrap: break-word; */
+    border: 1px solid black;
+    margin: auto;
+    padding: auto;
+    background-image: url("../../../assets/images/giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.EditVacation .fromDate,
+.untilDate {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #0288d1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.EditVacation input {
+    color: #7CFC00;
+    background-color: transparent;
+}
+
+.EditVacation .TextField {
+    margin: 0.7rem;
+}
+
+
+.EditVacation form {
+    background-color: rgba(33, 35, 33, 0.3);
+    width: 25em;
+    margin: auto;
+    color: #0288d1;
+    box-sizing: border-box;
+    border: 2px solid #0288d1;
+    border-radius: 4px;
+    margin-bottom:10px;
+}
+
+.EditVacation h2 {
+    color: #7CFC00;
+}
+
+.errText{
+    color: red;
+}
+
+.EditVacation .TextField p{
+    color: red
+}

@@ -1,0 +1,7 @@
+.VacationList {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+    height: 100%;
+}
